@@ -278,16 +278,6 @@ article a {
   box-shadow: 0 0 20px #4f9;
 }
 
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('https://www.gifss.com/arquitectura/antenas/antena-01.gif') 50% 50% no-repeat rgb(0,0,0);
-}
-
 .main article .btn-abrir-popup {
 	padding: 0 20px;
 	margin-bottom: 20px;
