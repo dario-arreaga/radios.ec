@@ -2,10 +2,10 @@
 <widget id="com.radios.ec" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Radios EC</name>
     <description>
-        A blank PhoneGap app.
+        Radios del Ecuador online.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="darioarreaga14@gmail.com" href="http://phonegap.com">
+        Dario Arreaga
     </author>
     <content src="index.html" />
     <access origin="*" />
