@@ -9,5 +9,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <icon src="www/img/radio.ico" />
+    <icon src="www/logog.png" />
 </widget>
