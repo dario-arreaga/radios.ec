@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Electrónica Darío</title>
+		<link rel="shortcut icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+		<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script href="prefix.js"></script>
+		<link rel="stylesheet" href="estilos.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(window).load(function() {
+				$(".loader").fadeOut("slow");
+			});
+		</script>
+	</head>
+<body>
+
+<div class="loader"></div>
+
+	<div class="contenedor">
+
+		<header>
+			<div class="logo">
+				<img src="img/logo.png" width="150" alt="">
+				<a href="index.html">ELECTRÓNICA DARÍO</a>
+			</div>
+
+			<nav>
+				<a href="index.html"><i class="fa fa-home"></i>Inicio</a>
+				<a href="ubicacion.html"><i class="fa fa-map-marker"></i>Ubicación</a>
+				<a href="contacto.html"><i class="fa fa-comments"></i>Contacto</a>
+			</nav>
+		</header>
+
+		<section class="main">
+			<article>
+				<a href="https://www.google.com/maps/place/Electr%C3%B3nica+%22Dar%C3%ADo%22/data=!3m1!4b1!4m2!3m1!1s0x902d4757c51b8053:0xf10785f881b13942">Mapa</a>
+				<p>Cdla. Cien Camas, calles Luis Erazo y Antonio Ante. Por el lado de "Emergencias" del Hospital IESS, entra en la cuadra donde hay una cancha de voly y a dos cuadras está el local.</p>
+			</article>
+
+			<article>
+			<center>
+				<a href="https://www.google.com/maps/dir//Electr%C3%B3nica+%22Dar%C3%ADo%22/data=!4m8!4m7!1m0!1m5!1m1!1s0x902d4757c51b8053:0xf10785f881b13942!2m2!1d-79.5765677!2d-2.1316747" target="_blank" data-tracking-element-type="6" jslog="56039; track:impression,click">Cómo llegar</a>
+
+			<button id="btn-abrir-popup" class="btn-abrir-popup">Mapa</button>
+				<img src="https://maps.googleapis.com/maps/api/staticmap?scale=1&amp;size=1600x900&amp;style=feature:poi.business|visibility:off&amp;style=feature:water|visibility:simplified&amp;style=feature:road|element:labels.icon|visibility:off&amp;style=feature:road.highway|element:labels|saturation:-90|lightness:25&amp;format=jpg&amp;language=es-419&amp;region=EC&amp;markers=color:0xfa8c5c|-2.1316747,-79.5765677&amp;zoom=16&amp;client=google-presto&amp;signature=1c77W6rIH4pHVPEB9WfoZazBS_Q" width="90%" alt="">
+
+			</center>
+			</article>
+
+			<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fa fa-times"></i></a>
+				<img src="img/mapa.png" width="100%">
+			</div>
+		</section>
+
+        <a id="whatsapp" href="https://api.whatsapp.com/send?phone=593991680747"><img src="img/whatsapp.png" alt=""></a>
+
+		<footer>
+			<section class="links">
+				<a href="index.html"><i class="fa fa-home"></i></a>
+				<a href="ubicacion.html"><i class="fa fa-map-marker"></i></a>
+				<a href="contacto.html"><i class="fa fa-comments"></i></a>
+			</section>
+
+			<div class="social">
+				<a href="tel:0991680747">Llamar</a>
+				<a href="#"><i class="fa fa-arrow-circle-up"></i></a>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="popup.js"></script>
+</body>
+</html>

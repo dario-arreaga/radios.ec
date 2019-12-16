@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /app.js
+
+Sitemap: http://streamingserver.byethost8.com/sitemap.xml
