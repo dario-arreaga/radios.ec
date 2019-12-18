@@ -8,8 +8,9 @@
     <author email="darioarreaga14@gmail.com" href="http://phonegap.com">
         Dario Arreaga
     </author>
-    <gap:plugin  name="org.apache.cordova.inappbrowser" source="npm" ></gap:plugin>
-
+    <feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" source="npm" />
+</feature>
     <content src="index.html" />
     <access origin="*" />
     <icon src="www/logog.png" />
