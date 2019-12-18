@@ -116,8 +116,8 @@ divs[j].className = (this.id == divs[j].id) ? 'activo' : 'inactivo';
 
 			<nav>
 				<a href="index.html"><i class="fa fa-home"></i>Inicio</a>
-				<a href="error.html"><i class="fa fa-map-marker"></i>Contacto</a>
 				<a href="about.html"><i class="fa fa-info-circle"></i>Acerca de</a>
+				<a onclick="showConfirm(); return false;" href="#"><i class="fa fa-sign-out"></i>Salir</a>
 			</nav>
 
             <script src="app.js"></script>
@@ -151,12 +151,11 @@ divs[j].className = (this.id == divs[j].id) ? 'activo' : 'inactivo';
 		<footer>
 			<section class="links">
 				<a href="index.html"><i class="fa fa-home"></i></a>
-				<a href="error.html"><i class="fa fa-map-marker"></i></a>
 				<a href="about.html"><i class="fa fa-info-circle"></i></a>
+				<a onclick="showConfirm(); return false;" href="#"><i class="fa fa-sign-out"></i></a>
 			</section>
 
 			<div class="social">
-				<a onclick="showConfirm(); return false;" href="#" >salir</a>
 				<a href="#">  Copyright - 2019 <i class="fa fa-copyright"></i></a>
 			</div>
 		</footer>
