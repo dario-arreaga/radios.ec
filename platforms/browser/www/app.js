@@ -30,7 +30,7 @@ function playSong(id){
 }
 
 function getSongs(){
-	$.getJSON("https://dl.dropboxusercontent.com/s/nrg0mnse04dqz86/app.json",function(mjson){
+	$.getJSON("app.json",function(mjson){
 		music = mjson;
 		console.log(music);
 		genList(music);
