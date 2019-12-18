@@ -8,6 +8,9 @@
     <author email="darioarreaga14@gmail.com" href="http://phonegap.com">
         Dario Arreaga
     </author>
+    <preference name="stay-in-webview" value="true" />
+    <access Origin="*" browserOnly="true" subdomains="true" />
+    <gap:plugin name="org.Apache.cordova.inappbrowser" />
     <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.InAppBrowser" />
 </feature>
