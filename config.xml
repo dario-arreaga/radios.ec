@@ -10,10 +10,8 @@
     </author>
     <preference name="stay-in-webview" value="true" />
     <access Origin="*" browserOnly="true" subdomains="true" />
-    <gap:plugin name="org.apache.cordova.InAppBrowser" />
-    <feature name="InAppBrowser">
-    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
-</feature>
+    <gap:plugin  name="org.apache.cordova.inappbrowser" ></gap:plugin>
+
     <content src="index.html" />
     <access origin="*" />
     <icon src="www/logog.png" />
