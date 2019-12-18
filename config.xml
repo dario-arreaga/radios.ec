@@ -8,7 +8,7 @@
     <author email="darioarreaga14@gmail.com" href="http://phonegap.com">
         Dario Arreaga
     </author>
-    <gap:plugin  name="org.apache.cordova.inappbrowser" ></gap:plugin>
+    <gap:plugin  name="org.apache.cordova.inappbrowser" source="npm" ></gap:plugin>
 
     <content src="index.html" />
     <access origin="*" />
