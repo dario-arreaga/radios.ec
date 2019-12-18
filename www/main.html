@@ -69,7 +69,25 @@ li a{
 }
 
   </style>
+		// botones salir app
+<script language="javascript">
 
+     function showConfirm() {
+           navigator.notification.confirm(
+              '¿Seguro que quieres cerrar la aplicación?', // mensaje a mostrar
+              exitFromApp, // callback a invocar cuando el botón es presionado
+              'Salir', // titulo de la ventana
+              'Cancelar,Si' // etiquetas de los botones
+           );
+     }
+
+     function exitFromApp(buttonIndex) {
+            if (buttonIndex==2){ navigator.app.exitApp();}
+     }
+
+</script>
+
+		// playlist
 <script type="text/javascript">
 window.onload = function() {
 divs = document.getElementsByTagName('li');
@@ -138,6 +156,7 @@ divs[j].className = (this.id == divs[j].id) ? 'activo' : 'inactivo';
 			</section>
 
 			<div class="social">
+				<a onclick="showConfirm(); return false;" href="#" >salir</a>
 				<a href="#">  Copyright - 2019 <i class="fa fa-copyright"></i></a>
 			</div>
 		</footer>
